@@ -1,0 +1,14 @@
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\bin\Debug\net9.0\Grading System.exe
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\bin\Debug\net9.0\Grading System.deps.json
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\bin\Debug\net9.0\Grading System.runtimeconfig.json
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\bin\Debug\net9.0\Grading System.dll
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\bin\Debug\net9.0\Grading System.pdb
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\obj\Debug\net9.0\Grading System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\obj\Debug\net9.0\Grading System.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\obj\Debug\net9.0\Grading System.AssemblyInfo.cs
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\obj\Debug\net9.0\Grading System.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\obj\Debug\net9.0\Grading System.dll
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\obj\Debug\net9.0\refint\Grading System.dll
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\obj\Debug\net9.0\Grading System.pdb
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\obj\Debug\net9.0\Grading System.genruntimeconfig.cache
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Grading System\obj\Debug\net9.0\ref\Grading System.dll

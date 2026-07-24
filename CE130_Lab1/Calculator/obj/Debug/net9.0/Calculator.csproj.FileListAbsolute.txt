@@ -1,0 +1,28 @@
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.AssemblyInfo.cs
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.exe
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.deps.json
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.runtimeconfig.json
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.dll
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.pdb
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.dll
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\obj\Debug\net9.0\refint\Calculator.dll
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.pdb
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.genruntimeconfig.cache
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Calculator\obj\Debug\net9.0\ref\Calculator.dll
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.exe
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.deps.json
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.runtimeconfig.json
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.dll
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\bin\Debug\net9.0\Calculator.pdb
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.AssemblyInfoInputs.cache
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.AssemblyInfo.cs
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.csproj.CoreCompileInputs.cache
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.dll
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\obj\Debug\net9.0\refint\Calculator.dll
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.pdb
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\obj\Debug\net9.0\Calculator.genruntimeconfig.cache
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Calculator\obj\Debug\net9.0\ref\Calculator.dll

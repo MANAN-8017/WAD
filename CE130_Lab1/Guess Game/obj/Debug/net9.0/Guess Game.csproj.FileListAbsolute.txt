@@ -1,0 +1,28 @@
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.exe
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.deps.json
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.runtimeconfig.json
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.dll
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.pdb
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.AssemblyInfo.cs
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.dll
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\obj\Debug\net9.0\refint\Guess Game.dll
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.pdb
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.genruntimeconfig.cache
+C:\Users\user1\Documents\WAD\Lab1\CE130_Lab1\Guess Game\obj\Debug\net9.0\ref\Guess Game.dll
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.exe
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.deps.json
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.runtimeconfig.json
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.dll
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\bin\Debug\net9.0\Guess Game.pdb
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.AssemblyInfoInputs.cache
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.AssemblyInfo.cs
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.csproj.CoreCompileInputs.cache
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.dll
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\obj\Debug\net9.0\refint\Guess Game.dll
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.pdb
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\obj\Debug\net9.0\Guess Game.genruntimeconfig.cache
+D:\Study\College\SEM V\WAD - C# & .NET\Lab 1\CE130_Lab1\Guess Game\obj\Debug\net9.0\ref\Guess Game.dll
