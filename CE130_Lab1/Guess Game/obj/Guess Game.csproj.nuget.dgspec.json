@@ -1,30 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/run/media/fedora-manan/Iron Bank/College/SEM V/WAD/CE130_Lab1/Guess Game/Guess Game.csproj": {}
+    "I:\\Github\\Projects\\WAD\\CE130_Lab1\\Guess Game\\Guess Game.csproj": {}
   },
   "projects": {
-    "/run/media/fedora-manan/Iron Bank/College/SEM V/WAD/CE130_Lab1/Guess Game/Guess Game.csproj": {
+    "I:\\Github\\Projects\\WAD\\CE130_Lab1\\Guess Game\\Guess Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/run/media/fedora-manan/Iron Bank/College/SEM V/WAD/CE130_Lab1/Guess Game/Guess Game.csproj",
+        "projectUniqueName": "I:\\Github\\Projects\\WAD\\CE130_Lab1\\Guess Game\\Guess Game.csproj",
         "projectName": "Guess Game",
-        "projectPath": "/run/media/fedora-manan/Iron Bank/College/SEM V/WAD/CE130_Lab1/Guess Game/Guess Game.csproj",
-        "packagesPath": "/home/fedora-manan/.nuget/packages/",
-        "outputPath": "/run/media/fedora-manan/Iron Bank/College/SEM V/WAD/CE130_Lab1/Guess Game/obj/",
+        "projectPath": "I:\\Github\\Projects\\WAD\\CE130_Lab1\\Guess Game\\Guess Game.csproj",
+        "packagesPath": "C:\\Users\\Manan\\.nuget\\packages\\",
+        "outputPath": "I:\\Github\\Projects\\WAD\\CE130_Lab1\\Guess Game\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/fedora-manan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Manan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -39,10 +46,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
@@ -64,15 +72,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.17, 9.0.17]"
+              "version": "[9.0.19, 9.0.19]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[9.0.17, 9.0.17]"
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.19, 9.0.19]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.17, 9.0.17]"
+              "version": "[9.0.19, 9.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.19, 9.0.19]"
             }
           ],
           "frameworkReferences": {
@@ -80,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.109/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

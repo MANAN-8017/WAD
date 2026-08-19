@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "gNqZhJTqWM0=",
+  "dgSpecHash": "E9GJCAlQxQA=",
   "success": true,
-  "projectFilePath": "/run/media/fedora-manan/Iron Bank/College/SEM V/WAD/CE130_Lab1/Calculator/Calculator.csproj",
+  "projectFilePath": "I:\\Github\\Projects\\WAD\\CE130_Lab1\\Calculator\\Calculator.csproj",
   "expectedPackageFiles": [
-    "/home/fedora-manan/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.22.1/microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512",
-    "/home/fedora-manan/.nuget/packages/microsoft.netcore.app.ref/9.0.17/microsoft.netcore.app.ref.9.0.17.nupkg.sha512",
-    "/home/fedora-manan/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.17/microsoft.aspnetcore.app.ref.9.0.17.nupkg.sha512",
-    "/home/fedora-manan/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.17/microsoft.netcore.app.host.linux-x64.9.0.17.nupkg.sha512"
+    "C:\\Users\\Manan\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512",
+    "C:\\Users\\Manan\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.19\\microsoft.netcore.app.ref.9.0.19.nupkg.sha512",
+    "C:\\Users\\Manan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.19\\microsoft.windowsdesktop.app.ref.9.0.19.nupkg.sha512",
+    "C:\\Users\\Manan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.19\\microsoft.aspnetcore.app.ref.9.0.19.nupkg.sha512",
+    "C:\\Users\\Manan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.19\\microsoft.netcore.app.host.win-x64.9.0.19.nupkg.sha512"
   ],
   "logs": []
 }

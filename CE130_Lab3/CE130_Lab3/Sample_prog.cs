@@ -55,7 +55,6 @@ namespace LINQLab
             // (Use Join)
 
             Console.WriteLine("Query 1: Customer Names and Products Ordered");
-            Console.WriteLine("---------------------------------------------");
 
             var customerOrders = customers.Join(
                 orders,
@@ -81,7 +80,6 @@ namespace LINQLab
             // (Use First() or FirstOrDefault())
 
             Console.WriteLine("\nQuery 2: First Order Greater Than ₹20,000");
-            Console.WriteLine("---------------------------------------------");
 
             var firstLargeOrder = orders.FirstOrDefault(
                 order => order.OrderAmount > 20000
@@ -107,7 +105,6 @@ namespace LINQLab
             // (Use Join, Where, GroupBy, and Sum)
 
             Console.WriteLine("\nQuery 3: Ahmedabad Customers and Total Spending");
-            Console.WriteLine("---------------------------------------------");
 
             var ahmedabadCustomers = customers
                 .Join(
@@ -152,7 +149,6 @@ namespace LINQLab
             // (Use Join and OrderByDescending())
 
             Console.WriteLine("\nQuery 4: Customer with Highest-Value Order");
-            Console.WriteLine("---------------------------------------------");
 
             var highestOrder = customers
                 .Join(
