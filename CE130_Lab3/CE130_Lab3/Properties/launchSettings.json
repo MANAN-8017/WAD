@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "CE130_Lab3": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
