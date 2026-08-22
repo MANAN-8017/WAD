@@ -1,8 +1,4 @@
-﻿using LINQLab;
-using System;
-using System.Collections.Generic;
-
-class Program
+﻿class Program
 {
     static void Main()
     {

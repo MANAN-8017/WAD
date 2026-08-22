@@ -1,54 +1,51 @@
-# Build output
-bin/
-obj/
-
-# Visual Studio
 .vs/
+.vscode/
+.idea/
+
 *.user
+*.rsuser
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Visual Studio Code
-.vscode/
+**/bin/
+**/obj/
 
-# Rider / JetBrains
-.idea/
-*.sln.iml
-
-# NuGet
 *.nupkg
 *.snupkg
-packages/
+**/packages/
 .nuget/
 
-# Logs
-*.log
+**/wwwroot/lib/
 
-# Test results
-TestResults/
+**/TestResults/
 *.trx
 
-# Coverage
-coverage/
+**/coverage/
 *.coverage
 *.coveragexml
 
-# ASP.NET Core
-wwwroot/lib/
+*.log
 
-# User-specific files
-appsettings.Development.json
+**/publish/
+*.publishsettings
+**/Properties/PublishProfiles/
 
-# OS generated files
-.DS_Store
-Thumbs.db
+**/appsettings.Development.json
+*.pfx
 
-# Temporary files
-*.tmp
-*.temp
-
-# Environment / secrets
 .env
 .env.*
 !.env.example
+
+secrets.json
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,6 +1,4 @@
-﻿using System;
-
-delegate double ArithmeticOperation(double a, double b);
+﻿delegate double ArithmeticOperation(double a, double b);
 
 class Calculator
 {
