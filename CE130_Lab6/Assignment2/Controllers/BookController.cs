@@ -1,38 +1,32 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Assignment1.Models;
+using Assignment2.Repositories;
 
-namespace Assignment1.Controllers
+namespace Assignment2.Controllers
 {
     public class BookController : Controller
     {
-        private static List<Book> books = new List<Book>
+        private readonly IBookRepository repository;
+
+        public BookController(IBookRepository repository)
         {
-            new Book { BookId = 1, Title = "Clean Code", Author = "Robert C. Martin", Category = "Programming", Price = 500, PublishedYear = 2008 },
-            new Book { BookId = 2, Title = "The Pragmatic Programmer", Author = "Andrew Hunt", Category = "Programming", Price = 750, PublishedYear = 1999 }
-        };
+            this.repository = repository;
+        }
 
-
-        static int BookId = 3;
-        // GET: BookController
         public ActionResult Index()
         {
-            return View(books);
+            return View(repository.GetAll());
         }
 
-        // GET: BookController/Details/5
         public ActionResult Details(int id)
         {
-            Book b = books.FirstOrDefault(book => book.BookId == id);
-            return View(b);
+            return View(repository.GetById(id));
         }
 
-        // GET: BookController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: BookController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -55,12 +49,8 @@ namespace Assignment1.Controllers
                     return BadRequest(new { Error = "Invalid Publish Year format" });
                 }
 
-                Book newBook = new Book(BookId, Title, Author, Category, Price, PublishedYear);
-                BookId++;
+                repository.Add(Title, Author, Category, Price, PublishedYear);
 
-                books.Add(newBook);
-
-                Console.WriteLine("Added new book successfully");
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -69,20 +59,20 @@ namespace Assignment1.Controllers
             }
         }
 
-        // GET: BookController/Edit/5
         public ActionResult Edit(int id)
         {
-            Book b = books.FirstOrDefault(book => book.BookId == id);
-            return View(b);
+            return View(repository.GetById(id));
         }
 
-        // POST: BookController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
             try
             {
+                string Title = collection["Title"];
+                string Author = collection["Author"];
+                string Category = collection["Category"];
                 string bookPrice = collection["Price"];
                 string year = collection["PublishedYear"];
 
@@ -96,13 +86,7 @@ namespace Assignment1.Controllers
                     return BadRequest(new { Error = "Invalid Publish Year format" });
                 }
 
-                Book b = books.FirstOrDefault(book => book.BookId == id);
-
-                b.Title = collection["Title"];
-                b.Author = collection["Author"];
-                b.Category = collection["Category"];
-                b.Price = Price;
-                b.PublishedYear = PublishedYear;
+                repository.Update(id, Title, Author, Category, Price, PublishedYear);
 
                 return RedirectToAction(nameof(Index));
             }
@@ -112,21 +96,18 @@ namespace Assignment1.Controllers
             }
         }
 
-        // GET: BookController/Delete/5
         public ActionResult Delete(int id)
         {
-            Book b = books.FirstOrDefault(book => book.BookId == id);
-            return View(b);
+            return View(repository.GetById(id));
         }
 
-        // POST: BookController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
         {
             try
             {
-                books.Remove(books.FirstOrDefault(book => book.BookId == id));
+                repository.Delete(id);
                 return RedirectToAction(nameof(Index));
             }
             catch
