@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Assignment1.Models.Book>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+<h1>Books</h1>
+
+<br/>
+<br/>
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th> @Html.DisplayNameFor(model => model.Title) </th>
+            <th> @Html.DisplayNameFor(model => model.Author) </th>
+            <th> @Html.DisplayNameFor(model => model.Category) </th>
+            <th> @Html.DisplayNameFor(model => model.Price) </th>
+            <th> @Html.DisplayNameFor(model => model.PublishedYear) </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(model => item.Title) </td>
+                    <td> @Html.DisplayFor(model => item.Author) </td>
+                    <td> @Html.DisplayFor(model => item.Category) </td>
+                    <td> @Html.DisplayFor(model => item.Price) ₹ </td>
+                    <td> @Html.DisplayFor(model => item.PublishedYear) </td>
+                </tr>
+            }
+        }
+    </tbody>
+
+</table>

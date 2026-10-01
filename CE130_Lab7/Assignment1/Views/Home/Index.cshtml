@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Assignment1.Models.Book>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Online Book Store</h1>
+<br/>
+<br/>
+<div class="row">
+    @if (Model != null && Model.Any())
+    {
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <partial name="_BookCard" model="item" />
+            </div>
+        }
+    }
+
+</div>
