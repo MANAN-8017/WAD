@@ -1,0 +1,77 @@
+﻿@model Assignment2.Models.OrderViewModel
+
+@{
+    ViewData["Title"] = "Place Order";
+    var products = ViewBag.Products as List<Assignment2.Models.Product>;
+}
+
+<h1>Place Product Order</h1>
+
+<br/>
+<br/>
+
+<form asp-controller="Order" asp-action="Index" method="post">
+
+    <div>
+        <label asp-for="Name">Customer Name</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="Phone">Phone</label>
+        <input asp-for="Phone" />
+        <span asp-validation-for="Phone"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="ProductId">Product</label>
+        <select asp-for="ProductId">
+            <option value="">-- Select Product --</option>
+            @foreach (var product in products)
+            {
+                <option value="@product.ProductId">
+                    @product.ProductName - ₹@product.Price
+                </option>
+            }
+        </select>
+        <span asp-validation-for="ProductId"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="Quantity">Quantity</label>
+        <input asp-for="Quantity" type="number" />
+        <span asp-validation-for="Quantity"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="DeliveryAddress">Delivery Address</label>
+        <textarea asp-for="DeliveryAddress"></textarea>
+        <span asp-validation-for="DeliveryAddress"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="City">City</label>
+        <input asp-for="City" />
+        <span asp-validation-for="City"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="Pincode">Pincode</label>
+        <input asp-for="Pincode" />
+        <span asp-validation-for="Pincode"></span>
+    </div>
+
+    <br />
+    <br/>
+    <button type="submit">
+        Place Order
+    </button>
+
+</form>

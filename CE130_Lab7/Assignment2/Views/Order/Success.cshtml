@@ -1,0 +1,18 @@
+﻿@model Assignment2.Models.OrderViewModel
+
+@{
+    ViewData["Title"] = "Order Successful";
+}
+
+<h1>Order Placed Successfully</h1>
+<hr />
+<p> <strong>Customer Name:</strong> @Model.Name </p>
+<p> <strong>Email:</strong> @Model.Email </p>
+<p> <strong>Phone:</strong> @Model.Phone </p>
+<p> <strong>Product ID:</strong>@Model.ProductId </p>
+<p> <strong>Quantity:</strong> @Model.Quantity </p>
+<p> <strong>Delivery Address:</strong> @Model.DeliveryAddress </p>
+<p> <strong>City:</strong> @Model.City </p>
+<p> <strong>Pincode:</strong> @Model.Pincode </p>
+<br/>
+<h2>Thank you for your order!</h2>
